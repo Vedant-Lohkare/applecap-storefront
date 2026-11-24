@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppleCap | Storefront</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <a href="#" class="logo">Apple<span>Cap</span></a>
+
+    <nav class="nav-links">
+      <a href="#" class="active">DROPS</a>
+      <a href="#">MEN</a>
+      <a href="#">WOMEN</a>
+      <a href="#">GEAR</a>
+    </nav>
+
+    <div class="nav-actions">
+      <input type="text" class="search-box" placeholder="Search items...">
+      <a href="#" class="pill-btn">Saved (2)</a>
+      <a href="#" class="pill-btn primary-btn">Bag (1)</a>
+    </div>
+  </header>
+
+  <!-- Main Two-Column Layout: Sidebar + Product Grid -->
+  <main class="page-layout">
+
+    <!-- Left Filter Sidebar -->
+    <aside class="sidebar">
+      <div class="filter-block">
+        <h3>CATEGORY</h3>
+        <label><input type="radio" name="cat" checked> All Drops</label>
+        <label><input type="radio" name="cat"> Oversized Tees</label>
+        <label><input type="radio" name="cat"> Boxy Streetwear</label>
+      </div>
+
+      <div class="filter-block">
+        <h3>SIZE</h3>
+        <div class="size-list">
+          <span class="size-tag active">ALL</span>
+          <span class="size-tag">S</span>
+          <span class="size-tag">M</span>
+          <span class="size-tag">L</span>
+          <span class="size-tag">XL</span>
+          <span class="size-tag">XXL</span>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <h3>SHADE</h3>
+        <label><input type="checkbox" checked> <span class="dot d-violet"></span> Violet</label>
+        <label><input type="checkbox"> <span class="dot d-cyan"></span> Cyan</label>
+        <label><input type="checkbox"> <span class="dot d-rose"></span> Rose</label>
+        <label><input type="checkbox"> <span class="dot d-blue"></span> Cobalt</label>
+      </div>
+    </aside>
+
+    <!-- Right Product Showcase -->
+    <section class="products-section">
+      <div class="section-header">
+        <div>
+          <p class="path">Home / Streetwear / Autumn Edit</p>
+          <h1>Featured Collection <span>(8 items)</span></h1>
+        </div>
+        <select class="sort-box">
+          <option>Sort: Featured</option>
+          <option>Price: Low to High</option>
+          <option>Price: High to Low</option>
+        </select>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-visual v1">
+            <span class="tag">NEW</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>OVERSIZED FIT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Phantom Violet Tee</h2>
+            <p>Heavyweight Cotton · Violet</p>
+            <div class="price-row">
+              <strong>₹1,299</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v2">
+            <span class="tag">DROP</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>BOXY CUT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Pulse Cyan Graphic Tee</h2>
+            <p>Drop Shoulder · Cyan</p>
+            <div class="price-row">
+              <strong>₹1,399</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v3">
+            <span class="tag">HOT</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>STREET EDIT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Crimson Drift Tee</h2>
+            <p>280 GSM Fabric · Rose</p>
+            <div class="price-row">
+              <strong>₹1,199</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v4">
+            <span class="tag">CORE</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>ESSENTIAL</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Cobalt Night Tee</h2>
+            <p>Relaxed Fit · Cobalt</p>
+            <div class="price-row">
+              <strong>₹999</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v5">
+            <span class="tag">NEW</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>OVERSIZED FIT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Nebula Indigo Tee</h2>
+            <p>Heavyweight Cotton · Violet</p>
+            <div class="price-row">
+              <strong>₹1,349</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v6">
+            <span class="tag">DROP</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>BOXY CUT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Glacier Mint Tee</h2>
+            <p>Drop Shoulder · Cyan</p>
+            <div class="price-row">
+              <strong>₹1,249</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v7">
+            <span class="tag">HOT</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>STREET EDIT</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Velvet Rose Tee</h2>
+            <p>280 GSM Fabric · Rose</p>
+            <div class="price-row">
+              <strong>₹1,449</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual v8">
+            <span class="tag">CORE</span>
+            <span class="heart">♡</span>
+            <div class="tee-mark">APPLECAP<span>ESSENTIAL</span></div>
+          </div>
+          <div class="card-info">
+            <h2>Hyper Blue Tee</h2>
+            <p>Relaxed Fit · Cobalt</p>
+            <div class="price-row">
+              <strong>₹1,099</strong>
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
